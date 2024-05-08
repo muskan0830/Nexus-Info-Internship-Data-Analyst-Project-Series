@@ -3,7 +3,7 @@
 
 # PROJECT 1: IRIS
 
-**Project Description: Exploratory Data Analysis (EDA) with Python on the Iris Dataset**
+## PYTHON EDA
 
 **Introduction:**
 In this project, we conducted an Exploratory Data Analysis (EDA) on the famous Iris dataset using Python. The objective was to gain insights into the dataset, perform data cleaning, statistical summaries, and visualize patterns and distributions to understand the characteristics of different iris species.
@@ -44,8 +44,6 @@ Based on the analysis, we proposed the following classification guidelines:
 2. **Versicolor**: Exhibits moderate petal dimensions with a wider range compared to Setosa but narrower compared to Virginica.
 3. **Virginica**: Features the largest petal dimensions among all classes with the widest range of values.
 
-
-## PYTHON EDA
 
 ## POWER BI DASHBOARD
 
