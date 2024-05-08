@@ -1,5 +1,5 @@
 # Nexus Info Internship Projects
-#PHASE 1:
+# PHASE 1:
 
 # PROJECT 1: IRIS
 
