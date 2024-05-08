@@ -3,6 +3,48 @@
 
 # PROJECT 1: IRIS
 
+**Project Description: Exploratory Data Analysis (EDA) with Python on the Iris Dataset**
+
+**Introduction:**
+In this project, we conducted an Exploratory Data Analysis (EDA) on the famous Iris dataset using Python. The objective was to gain insights into the dataset, perform data cleaning, statistical summaries, and visualize patterns and distributions to understand the characteristics of different iris species.
+
+**Skills Demonstrated:**
+- Data cleaning: Checked for null and duplicated values, and trimmed column names.
+- Statistical analysis: Calculated summary statistics such as mean, median, and range.
+- Data visualization: Created charts and visualizations to explore patterns, distributions, and classifications within the dataset.
+- Interpretation: Derived insights from the data analysis to understand the characteristics and differences among iris species.
+
+**Data Cleaning:**
+- Checked for null values, duplicated rows, and trimmed column names by removing white spaces to ensure data integrity and consistency.
+
+**Statistical Summary and Basic EDA:**
+- Utilized Python libraries such as warning, Pandas, NumPy, MatPlotLib and Seaborn to perform statistical summary and basic EDA on the Iris dataset.
+- Calculated descriptive statistics including mean, median, minimum, maximum, and quartiles for each feature (sepal length, sepal width, petal length, and petal width).
+
+**Charts and Visualizations:**
+- Created visualizations to explore patterns, distributions, and relationships within the dataset.
+- Visualized the distribution of sepal and petal dimensions across different iris species to identify any discernible patterns or trends.
+
+**Insights:**
+1. **Sepal and Petal Dimensions by Class:**
+   - Identified variations in sepal and petal dimensions across different iris species.
+   - Observed that "virginica" generally had longer and wider sepals and petals compared to "versicolor" and "setosa".
+
+2. **Class Discrimination:**
+   - Noted that the differences in sepal and petal dimensions among the classes could potentially be used for discriminating between different iris species.
+   - Sepal and petal dimensions exhibited distinct patterns that could aid in species classification.
+
+3. **Feature Importance:**
+   - Recognized that petal length and width appeared to be more informative features for distinguishing between iris species compared to sepal dimensions.
+   - Petal measurements showed more significant differences across classes, suggesting their importance in classification tasks.
+
+**Classification Recommendations:**
+Based on the analysis, we proposed the following classification guidelines:
+1. **Setosa**: Characterized by smaller petal dimensions with a narrow range of values.
+2. **Versicolor**: Exhibits moderate petal dimensions with a wider range compared to Setosa but narrower compared to Virginica.
+3. **Virginica**: Features the largest petal dimensions among all classes with the widest range of values.
+
+
 ## PYTHON EDA
 
 ## POWER BI DASHBOARD
