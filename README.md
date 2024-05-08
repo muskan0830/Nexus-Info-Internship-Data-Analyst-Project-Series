@@ -1,10 +1,34 @@
-# Nexus-Info-Internship-Data-Analyst-Project-Series
+# Nexus Info Internship Projects
+#PHASE 1:
 
-## PROJECT 1: IRIS
+# PROJECT 1: IRIS
 
-### PYTHON EDA
+## PYTHON EDA
 
-### POWER BI DASHBOARD
+## POWER BI DASHBOARD
+
+### 1. KPIs:
+- Begin by defining key measures to display the maximum and minimum values of petal length, petal width, sepal length, and sepal width along with the corresponding species.
+- Utilize DAX code to calculate these measures. For instance, to obtain the maximum petal length and its corresponding species:
+    ```DAX
+    MaxPetalLength_KPI = 
+    VAR MaxPetalLength = MAX('iris-data'[petal-length])
+    VAR MaxSpecies = CALCULATE(MAX('iris-data'[Species]), 'iris-data'[petal-length] = MaxPetalLength)
+    RETURN
+        MaxPetalLength & " (" & MaxSpecies & ")"
+    ```
+- Repeat the process to create measures for minimum values and for other characteristics.
+
+### 2. Organizing the Display:
+- Insert a textbox onto the dashboard and label it as "Petal Length".
+- Add cards to display both maximum and minimum petal lengths.
+- Group these elements to facilitate management and positioning by selecting the textbox and the two cards, then navigating to the 'Format' option and choosing 'Group'.
+
+### 3. Charts and Navigator:
+- Generate bar and column charts to visualize trends for both petal length and petal width, enhancing understanding of their distribution and comparison.
+- Integrate a page navigator to enable seamless navigation between different sections of the dashboard, enhancing user experience and facilitating access to various insights and analyses.
+- Duplicate the existing page to maintain consistency in design and layout.
+- Repeat the steps, adjusting them as necessary, to showcase key measures and visualizations for sepal length and sepal width.
 
 ## Project 2: Weather
 
