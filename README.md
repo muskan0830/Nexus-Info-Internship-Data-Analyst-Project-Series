@@ -6,7 +6,7 @@
 ## PYTHON EDA
 
 **Introduction:**
-In this project, we conducted an Exploratory Data Analysis (EDA) on the famous Iris dataset using Python. The objective was to gain insights into the dataset, perform data cleaning, statistical summaries, and visualize patterns and distributions to understand the characteristics of different iris species.
+In this, we conducted an Exploratory Data Analysis (EDA) on the famous Iris dataset using Python. The objective was to gain insights into the dataset, perform data cleaning, statistical summaries, and visualize patterns and distributions to understand the characteristics of different iris species.
 
 **Skills Demonstrated:**
 - Data cleaning: Checked for null and duplicated values, and trimmed column names.
@@ -73,6 +73,40 @@ Based on the analysis, we proposed the following classification guidelines:
 # Project 2: Weather
 
 ## PYTHON: EDA, CORRELATION AND PREDICTIVE ANALYSIS
+
+**Introduction:**
+In this, we performed data preparation, correlation analysis, and regression analysis on a weather dataset using Python. The objectives were to clean and preprocess the data, identify relationships between weather parameters through correlation analysis, and implement regression analysis to predict one weather parameter based on others.
+
+**Skills Demonstrated:**
+- Data cleaning and preprocessing: Handled missing values, outliers, and inconsistencies in the dataset using Pandas and NumPy libraries.
+- Statistical analysis: Conducted statistical summary and basic exploratory data analysis to understand the dataset's characteristics.
+- Data visualization: Created visualizations using Seaborn and Matplotlib libraries to explore patterns and distributions in the data.
+- Correlation analysis: Identified relationships between different weather parameters using correlation coefficients.
+- Regression analysis: Implemented linear regression to predict one weather parameter based on others and interpreted the regression coefficients.
+
+**Data Preparation:**
+- Cleaned the weather dataset by handling missing values, outliers, and whitespaces in column names.
+- Changed the data type of the timestamp column and extracted month and day of the week from the timestamp.
+- Conducted statistical summary and created visualizations to understand the dataset's characteristics.
+
+**Correlation Analysis:**
+- Identified relationships between different weather parameters through correlation analysis.
+- Analyzed the correlation coefficients between wind speeds, heights above ground, roughness length, solar radiation, temperature, air density, and pressure.
+- Visualized the correlation matrix using heatmaps to visualize the strength and direction of correlations.
+
+**Regression Analysis:**
+- Implemented linear regression to predict wind speed ('v1') based on other weather parameters.
+- Evaluated the model's performance using cross-validation scores and interpreted the regression coefficients.
+- Derived insights into the predictors' influence on predicted wind speed and discussed limitations and considerations.
+
+**Summary of Results:**
+1. **Seasonal Variations:** Identified seasonal trends in wind speeds, solar radiation, and temperature, with higher values observed during summer months.
+2. **Height Above Ground and Roughness Length:** Found consistent values for heights above ground and roughness length throughout the year, indicating stable measurement conditions.
+3. **Correlation Analysis:** Discovered strong positive correlations between wind speeds at different heights above ground and between solar radiation variables. Moderate correlations were observed between temperature, air density, and latitude.
+4. **Regression Analysis:** The regression model demonstrated strong performance with high cross-validation scores. Predictor variables such as wind speed at 10 meters above displacement height ('v2') and air density ('rho') had significant positive coefficients, indicating their influence on predicted wind speed.
+
+**Conclusion:**
+Through this project, we gained insights into the relationships between weather parameters and developed a predictive model for wind speed. The analysis provides valuable information for understanding weather patterns and predicting wind speeds based on other environmental factors. Further refinement of the model and consideration of additional variables could enhance its predictive accuracy in future iterations.
 
 ## POWER BI DASHBOARD
 
