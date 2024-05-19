@@ -147,3 +147,10 @@ e. **Slicers for Filtering:** Incorporated slicers for filtering data by month a
 f. **Week Days Dashboard:** Duplicated the current page and replaced "month_extracted" with "week_day_extracted" to create a dashboard focused on weekdays.
 
 g. **Slicer Sync Across Dashboards:** Ensured slicers are synchronized across both dashboards for seamless filtering by navigating to "view" and selecting "sync slicers". Then, selected all pages to apply the synchronization.
+
+
+
+# PHASE 2:
+
+# TWITTER SENTIMENT ANALYSIS
+
